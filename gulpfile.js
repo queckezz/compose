@@ -1,6 +1,6 @@
+var exec = require('child_process').execSync
 var normalize = require('path').normalize
 var coveralls = require('gulp-coveralls')
-var exec = require('child_process').exec
 var coverage = require('gulp-istanbul')
 var sequence = require('run-sequence')
 var docs = require('gulp-markdox')
@@ -13,7 +13,7 @@ gulp.task('test', function (cb) {
 })
 
 gulp.task('test-cov', function (cb) {
-  return sequence('instrument', 'test', 'coverage', cb)
+  return sequence('instrument', 'mocha', 'coverage', cb)
 })
 
 gulp.task('ci', function (cb) {
@@ -29,12 +29,8 @@ gulp.task('docs', function () {
 
 gulp.task('lint', function (cb) {
   var standard = normalize('./node_modules/.bin/standard')
-  console.log(standard)
-  exec(standard, function (err, stdout, stderr) {
-    console.log(stdout)
-    console.log(stderr)
-    cb(err)
-  })
+  var stdout = exec(standard, {encoding: 'utf-8', cwd: __dirname})
+  console.log(stdout)
 })
 
 gulp.task('instrument', function () {
