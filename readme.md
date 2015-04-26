@@ -8,15 +8,13 @@
 [![Test coverage][coveralls-image]][coveralls-url]
 [![Js Standard Style][standard-image]][standard-url]
 
-Function composition.
-
-> Composing any number of functions is a **chaining process** in which the output of a function gets passed to the next function and so on until a final output is produced.
+Compose two or _more_ functions together.
 
 ![Function Composition](./docs/composition.png)
 
-```
-f(data) -> modified data -> g(modified data) -> ...
-```
+## What is it?
+
+If you aren't familiar with function composition you can read all about it [here](http://scott.sauyet.com/Javascript/Talk/Compose/2013-05-22/#slide-0).
 
 ## Installation
 
