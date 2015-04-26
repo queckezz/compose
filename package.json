@@ -1,7 +1,7 @@
 {
-  "name": "structs-compose",
-  "version": "0.0.1",
-  "description": "Function composition",
+  "name": "@structs/compose",
+  "version": "0.0.3",
+  "description": "Compose two or more functions together",
   "main": "lib/index.js",
   "dependencies": {
     "structs-list": "0.0.9"

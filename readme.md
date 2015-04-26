@@ -1,5 +1,5 @@
 
-# structs-compose
+# compose
 
 [![Build Status][travis-image]][travis-url]
 [![NPM version][npm-image]][npm-url]
@@ -19,7 +19,7 @@ If you aren't familiar with function composition you can read all about it [here
 ## Installation
 
 ```bash
-$ npm install structs-compose
+$ npm install @structs/compose
 ```
 
 ## Example
