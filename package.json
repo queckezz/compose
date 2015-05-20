@@ -1,6 +1,6 @@
 {
   "name": "@structs/compose",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Compose two or more functions together",
   "main": "lib/index.js",
   "dependencies": {
