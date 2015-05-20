@@ -51,13 +51,13 @@ $ npm test
 
 [MIT][license-url]
 
-[npm-image]: https://img.shields.io/npm/v/structs-compose.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/structs-compose
+[npm-image]: https://img.shields.io/npm/v/@structs/compose.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@structs/compose
 
 [david-image]: http://img.shields.io/david/structs/compose.svg?style=flat-square
 [david-url]: https://david-dm.org/structs/compose
 
-[license-image]: http://img.shields.io/npm/l/structs-compose.svg?style=flat-square
+[license-image]: http://img.shields.io/npm/l/@structs/compose.svg?style=flat-square
 [license-url]: ./license
 
 [travis-image]: https://img.shields.io/travis/structs/compose.svg?style=flat-square
